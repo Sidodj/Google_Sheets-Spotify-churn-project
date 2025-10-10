@@ -29,7 +29,7 @@ The primary objective is to identify key factors leading to customer cancellatio
 | `device_type` | Device used (Mobile, Desktop, Web). | `object` |
 | `ads_listened_per_week` | Number of ads heard per week. | `int64` |
 | `offline_listening` | Binary indicator for offline mode usage (0/1). | `int64` |
-| `is_churned`** | **Target Variable (0 = Active, 1 = Churned). | `int64` |
+| `is_churned`** | Target Variable (0 = Active, 1 = Churned). | `int64` |
 
 * **Total Rows:** 8,000
 * **Source:** [Spotify Analysis Dataset 2025 on Kaggle](https://www.kaggle.com/datasets/nabihazahid/spotify-dataset-for-churn-analysis)
